@@ -394,6 +394,15 @@ footer > div {
     grid-template-columns: repeat(4, 1fr);
  }
 
+ footer .copyright span {
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+footer .copyright img {
+    height: 30px;
+}
 
 footer h1 {
     font-size: 18px;
