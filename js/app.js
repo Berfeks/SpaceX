@@ -16,6 +16,7 @@ let rocketOffsetTop = rocket.offsetTop;
 let thirdOffsetTop = rocketPieces[2].offsetTop;
 
 document.addEventListener('scroll', (e) => {
+
   if(window.scrollY > (rocketOffsetTop - triggerStart)) {
     rocketPieces[0].classList.add('active');
     rocketPieces[1].classList.add('active');
